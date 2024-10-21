@@ -1,0 +1,221 @@
+/* Styling for the carousel section */
+.carousel-container {
+  margin-bottom: 40px;
+}
+
+/* Services Section */
+.services-container {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.services-container h2 {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.services-container h3 {
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.2);
+  /* Transparent background */
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  backdrop-filter: blur(5px);
+  /* Adds a blur effect behind the card */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  /* Light border for definition */
+  border-radius: 10px;
+  /* Rounded corners */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.service-card h4 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-card p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.5em;
+}
+
+
+/* src/YoutubeBanner.css */
+
+/* Styling for the YouTube-style banner */
+.youtube-banner {
+  text-align: center;
+  background-color: #2b2b2b;
+  padding: 40px 20px;
+  color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+
+}
+
+.youtube-icon {
+  margin-bottom: 20px;
+}
+
+.youtube-icon .play-icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  /* Full red play icon */
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+  line-height: 60px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  /* Add transition for smooth hover effect */
+}
+
+.youtube-icon .play-icon:hover {
+  background-color: transparent;
+  /* Make the icon background transparent on hover */
+  color: red;
+  /* Change the play icon to red text on hover */
+  border: 2px solid red;
+  /* Add a red border for visibility */
+  cursor: pointer;
+}
+
+
+.youtube-banner h3 {
+  font-size: 1.2em;
+  color: #f48b8b;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.youtube-banner h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: white;
+
+}
+
+.youtube-banner .btn-red {
+  background-color: red;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.youtube-banner .btn-red:hover {
+  background-color: #ff4d4d;
+}
+
+.testimonial-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.testimonial-heading {
+  font-size: 1.5rem;
+  color: #d93025;
+  font-weight: bold;
+}
+
+.testimonial-subheading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.testimonial-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimonial-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonial-details {
+  text-align: left;
+}
+
+.testimonial-details h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.testimonial-details p {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: #555;
+}
+
+.testimonial-feedback {
+  font-style: italic;
+  color: #666;
+  margin-top: 20px;
+}
+
+.testimonial-rating {
+  color: #f44336;
+  font-size: 1.5rem;
+}
+
+.carousel-indicators {
+  bottom: -30px;
+}
+
+.carousel-indicators li {
+  background-color: #d93025;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #f44336;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .service-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

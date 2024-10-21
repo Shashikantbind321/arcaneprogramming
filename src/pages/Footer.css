@@ -1,0 +1,98 @@
+.footer {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+  }
+  .footer-info{
+    padding-top: 10px 0;
+    
+  }
+  
+  .footer-top {
+    background-color: #30c62b;
+    padding: 20px;
+    
+   
+  }
+  
+  .footer-info h3 {
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    flex-wrap: wrap;
+  }
+  
+  .footer-company-info,
+  .footer-links,
+  .footer-services,
+  .footer-news {
+    width: 22%;
+  }
+  
+  .footer-company-info {
+    text-align: left;
+  }
+  
+  .footer-logo {
+    width: 150px;
+  }
+  
+  .footer-contact p {
+    margin: 10px 0;
+  }
+  
+  .footer-links ul,
+  .footer-services ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li,
+  .footer-services ul li {
+    margin: 8px 0;
+  }
+  
+  .footer-links ul li a,
+  .footer-services ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-links ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .footer-links a {
+    text-decoration: none; 
+    color: black; 
+    transition: color 0.3s; 
+  }
+  
+  .footer-links a:hover {
+    color:red;
+  }
+  .footer-news a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  .footer-bottom-text {
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom-text p {
+    color: white;
+    font-size: 0.9em;
+  }
+  
